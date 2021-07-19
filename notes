@@ -1,0 +1,23 @@
+K Nearest Neighbors => classifies data points based on similarities. 
+it analysis the similarities between the new data pt and earlier data pts 
+and puts the new case into the category that is most similar to the already 
+available cases. 
+
+lets say two categories in the dataset 
+category 1 and category 2 
+new datapoint is presented in the dataset 
+how do we classify this new data point?? 
+knn helps us assign new datapt to a specific category. 
+
+
+KNN Algorithm 
+Step 1 => Choose the number of K of neighbors. 
+Step 2 => Take the K nearest neighbors of the new data pt according to the euclidean distance or 
+other distance. 
+Step 3 => Among the k neighbors, count the number of data pts in each category. 
+Step 4 => Assign the new data pt to the category where u counted the most neighbors. 
+
+How to find the nearest neighbors ?? Using euclidean distance 
+formula => distance between P1 and P2 = root of (x2 - x1) pow 2 + (y2 - y1) pow 2 
+look at the data pt in specific category that is closest to the new data pt and 
+add new data pt to that category. 
